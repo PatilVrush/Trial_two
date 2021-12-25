@@ -9,7 +9,7 @@ img1_gray = cv2.cvtColor(img1 , cv2.COLOR_BGR2GRAY)
 
 ret2,threshold2 = cv2.threshold(img1_gray , 120 , 255 , cv2.THRESH_BINARY) #low-light image, anything above 12 = white
 
-print("Yo, in branch main")
+print("Yo, I am in branch A")
 
 cv2.imshow('ORIGINAL' , img1)
 
